@@ -16,4 +16,4 @@ Optional helpers for video/audio and WebP/AVIF/SVG: `brew install ffmpeg imagema
 
 The cask is bumped automatically when a new ConvertSama release is published.
 
-ConvertSama was called Rondo up to 0.1.2. Existing `rondo` installs move to `convertsama` on the next `brew update`.
+ConvertSama was called Rondo up to 0.1.2. If you installed `rondo`, run `brew upgrade --cask farazbukhari/tap/convertsama` once: Homebrew trusts third-party casks by name, so a plain `brew upgrade` skips the renamed cask.
